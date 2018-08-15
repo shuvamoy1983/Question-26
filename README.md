@@ -30,7 +30,7 @@ assertEquals(ans, canFitInSpot("Autonomouscar"));
 
 @Test
 public void isVehicleRemove() {
-//*test to check whether a car fit in the spot or not
+//*to test whether a vehile is removed or not after parking
 boolean ans = true;
 assertEquals(ans, removeVehicle("Autonomouscar"));
 }
