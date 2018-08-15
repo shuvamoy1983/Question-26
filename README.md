@@ -17,7 +17,7 @@ assertArrayEquals(expectedOutput, getRow);
 @Test
 public void getSpotNumber() {
 //*test spot number
-String[] expectedOutput={2A,4B,5C}
+String[] expectedOutput={"2A","4B","5C"}
 assertArrayEquals(expectedOutput, getSpotNumber());
 }
 
